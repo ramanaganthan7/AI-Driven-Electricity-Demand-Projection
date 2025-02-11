@@ -1,0 +1,142 @@
+{
+    "Monthly Analysis": [
+        {
+            "Month": 1,
+            "Max_Demand": 5173.18,
+            "Min_Demand": 4487.31,
+            "Avg_Demand": 4897.417741935485
+        },
+        {
+            "Month": 2,
+            "Max_Demand": 4608.3,
+            "Min_Demand": 3830.82,
+            "Avg_Demand": 4170.951071428572
+        },
+        {
+            "Month": 3,
+            "Max_Demand": 4009.12,
+            "Min_Demand": 3324.4,
+            "Avg_Demand": 3719.235483870968
+        },
+        {
+            "Month": 4,
+            "Max_Demand": 5174.73,
+            "Min_Demand": 3819.45,
+            "Avg_Demand": 4467.519666666666
+        },
+        {
+            "Month": 5,
+            "Max_Demand": 6958.39,
+            "Min_Demand": 4528.71,
+            "Avg_Demand": 6136.85
+        },
+        {
+            "Month": 6,
+            "Max_Demand": 7093.74,
+            "Min_Demand": 5735.35,
+            "Avg_Demand": 6676.144
+        },
+        {
+            "Month": 7,
+            "Max_Demand": 6959.37,
+            "Min_Demand": 5839.32,
+            "Avg_Demand": 6527.009677419354
+        },
+        {
+            "Month": 8,
+            "Max_Demand": 6508.76,
+            "Min_Demand": 5572.58,
+            "Avg_Demand": 6027.595483870968
+        },
+        {
+            "Month": 9,
+            "Max_Demand": 6555.05,
+            "Min_Demand": 4773.09,
+            "Avg_Demand": 6001.601
+        },
+        {
+            "Month": 10,
+            "Max_Demand": 5000.32,
+            "Min_Demand": 3561.44,
+            "Avg_Demand": 4246.579032258065
+        },
+        {
+            "Month": 11,
+            "Max_Demand": 3882.11,
+            "Min_Demand": 3273.82,
+            "Avg_Demand": 3664.858333333333
+        },
+        {
+            "Month": 12,
+            "Max_Demand": 4657.46,
+            "Min_Demand": 3674.6,
+            "Avg_Demand": 4122.939677419355
+        }
+    ],
+    "Seasonal Analysis": [
+        {
+            "Season": "Rainfall",
+            "Max_Demand": 6555.05,
+            "Min_Demand": 3273.82,
+            "Avg_Demand": 4633.381648351648
+        },
+        {
+            "Season": "Spring",
+            "Max_Demand": 5174.73,
+            "Min_Demand": 3324.4,
+            "Avg_Demand": 4087.2440983606557
+        },
+        {
+            "Season": "Summer",
+            "Max_Demand": 7093.74,
+            "Min_Demand": 4528.71,
+            "Avg_Demand": 6339.182357723577
+        },
+        {
+            "Season": "Winter",
+            "Max_Demand": 5173.18,
+            "Min_Demand": 3674.6,
+            "Avg_Demand": 4404.6412222222225
+        }
+    ],
+    "Temperature Analysis": [
+        {
+            "TempCategory": "Cool",
+            "Avg_Demand": 4253.100714285714,
+            "Max_Demand": 5173.18,
+            "Min_Demand": 3273.82
+        },
+        {
+            "TempCategory": "Hot",
+            "Avg_Demand": 6340.315982905982,
+            "Max_Demand": 7093.74,
+            "Min_Demand": 4392.9
+        },
+        {
+            "TempCategory": "Normal",
+            "Avg_Demand": 4624.50375,
+            "Max_Demand": 6196.68,
+            "Min_Demand": 3324.4
+        }
+    ],
+    "Weekday/Weekend/Holiday Analysis": [
+        {
+            "DayType": "Weekday",
+            "Avg_Demand": 5079.573333333334,
+            "Max_Demand": 7093.74,
+            "Min_Demand": 3273.82
+        },
+        {
+            "DayType": "Weekend",
+            "Avg_Demand": 5012.7703846153845,
+            "Max_Demand": 7050.21,
+            "Min_Demand": 3332.16
+        },
+        {
+            "DayType": "Holiday",
+            "Avg_Demand": 4975.69125,
+            "Max_Demand": 6672.89,
+            "Min_Demand": 3797.23
+        }
+    ]
+}
