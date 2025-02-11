@@ -47,7 +47,7 @@ function PredictionCard({ title, modelName, rmseValue, imageSrc }) {
           <PredictionCard
             title="LSTM"
             modelName="LSTM"
-            rmseValue={1.7}
+            rmseValue={1.88}
             imageSrc={temp2}
           />
         </section>
