@@ -9,7 +9,7 @@ const PORT = 3001;
 app.use(cors());
 
 // Path to the existing CSV file
-const csvFilePath = "C:\\Users\\raman\\Documents\\AI_DRIVEN_ELECTRICITY_DEMAND_PREDICTION\\AI-Driven-Electricity-Demand-Projection\\AI_DRIVEN_ELECTRICITY_DEMAND_PREDICTION\\prediction_model\\Electricity-demand\\randomforest\\2025_demand_prediction_rf.csv";
+const csvFilePath = "C:\\Users\\raman\\Documents\\demand_final_vit\\AI-Driven-Electricity-Demand-Projection-rf\\AI_DRIVEN_ELECTRICITY_DEMAND_PREDICTION\\prediction_model\\Electricity-demand\\randomforest\\2025_demand_prediction_rf.csv";
 
 // Route to download the CSV file
 app.get("/api/download-csv", (req, res) => {
