@@ -1,5 +1,7 @@
 import temp1 from "../assets/temp1.png";
+import temp2 from "../assets/temp2.jpeg";    
 import demand1 from "../assets/demand1.png";
+import demand2 from "../assets/demand2.jpeg";
 function PredictionCard({ title, modelName, rmseValue, imageSrc }) {
     return (
       <div className="card mb-8">
@@ -39,18 +41,30 @@ function PredictionCard({ title, modelName, rmseValue, imageSrc }) {
           <PredictionCard
             title="Random Forest Regression"
             modelName="Random Forest Regression"
-            rmseValue={1.23}
+            rmseValue={3.2}
             imageSrc={temp1}
+          />
+          <PredictionCard
+            title="LSTM"
+            modelName="LSTM"
+            rmseValue={1.7}
+            imageSrc={temp2}
           />
         </section>
   
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Electricity Demand Prediction</h2>
+          <h2 className="text-2xl font-semibold mb-4 mt-8">Electricity Demand Prediction</h2>
           <PredictionCard
             title="Random Forest Regression"
             modelName="Random Forest Regression"
-            rmseValue={0.89}
+            rmseValue={293.60}
             imageSrc={demand1}
+          />
+          <PredictionCard
+            title="LSTM"
+            modelName="LSTM"
+            rmseValue={732.65}
+            imageSrc={demand2}
           />
         </section>
       </div>
