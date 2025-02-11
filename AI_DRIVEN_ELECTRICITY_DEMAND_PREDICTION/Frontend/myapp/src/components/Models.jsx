@@ -45,8 +45,8 @@ function PredictionCard({ title, modelName, rmseValue, imageSrc }) {
             imageSrc={temp1}
           />
           <PredictionCard
-            title="LSTM"
-            modelName="LSTM"
+            title="Long Short-Term Memory"
+            modelName="Long Short-Term Memory"
             rmseValue={1.88}
             imageSrc={temp2}
           />
@@ -61,9 +61,9 @@ function PredictionCard({ title, modelName, rmseValue, imageSrc }) {
             imageSrc={demand1}
           />
           <PredictionCard
-            title="LSTM"
-            modelName="LSTM"
-            rmseValue={732.65}
+            title="temporal fusion transformer"
+            modelName="Temporal Fusion Fransformer"
+            rmseValue={209.6}
             imageSrc={demand2}
           />
         </section>
