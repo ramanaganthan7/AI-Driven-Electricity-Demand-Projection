@@ -3,9 +3,8 @@ const path = require("path");
 const cors = require("cors");
 
 const app = express();
-const PORT = 3001;
+const PORT = 3002;
 
-// Enable CORS for all origins (you can restrict it to specific domains if needed)
 app.use(cors());
 
 // Path to the existing CSV file
@@ -14,6 +13,7 @@ const csvFilePath = "C:\\Users\\raman\\Documents\\demand_final_vit\\AI-Driven-El
 // Route to download the CSV file
 app.get("/api/download-csv", (req, res) => {
   // Sending the CSV file as an attachment for download
+  console.log("Downloading CSV file...");
   res.download(csvFilePath, "demand_data.csv", (err) => {
     if (err) {
       console.error("Error sending file:", err);

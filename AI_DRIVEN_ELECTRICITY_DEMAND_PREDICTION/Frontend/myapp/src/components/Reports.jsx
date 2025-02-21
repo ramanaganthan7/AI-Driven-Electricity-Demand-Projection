@@ -6,7 +6,8 @@ export default function Reports() {
     const handleDownload = async () => {
         try {
           // Trigger the download from the backend
-          const response = await fetch("http://localhost:3001/api/download-csv");
+          console.log("tttt");
+          const response = await fetch("http://localhost:3002/api/download-csv");
           if (response.ok) {
             const blob = await response.blob();
             const url = window.URL.createObjectURL(blob);
