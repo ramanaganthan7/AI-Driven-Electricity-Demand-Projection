@@ -6,14 +6,16 @@ import Demandprediction from '@/components/Demandprediction';
 import Purpose from './components/Purpose';
 import Reports from './components/Reports';
 import Models from './components/Models';
+import Login from './components/Login';
 
 
 const App = () => {
   return (
     <Router>
-      <Navbar /> {/* This will include the navigation bar */}
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to="/prediction" />} /> 
+        <Route path="/" element={<Login />} />
+        <Route path="/authenticated" element={<Navigate to="/prediction" />} /> 
         <Route path="/prediction" element={<Demandprediction />} />
         <Route path="/purpose" element={<Purpose />} />
         <Route path="/reports" element={<Reports />} />
@@ -21,6 +23,7 @@ const App = () => {
 
       </Routes>
     </Router>
+    
   );
 };
 

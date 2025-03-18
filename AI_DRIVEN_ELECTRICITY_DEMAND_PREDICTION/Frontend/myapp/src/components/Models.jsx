@@ -62,7 +62,7 @@ function PredictionCard({ title, modelName, rmseValue, imageSrc }) {
           />
           <PredictionCard
             title="temporal fusion transformer"
-            modelName="Temporal Fusion Fransformer"
+            modelName="Temporal Fusion Transformer"
             rmseValue={209.6}
             imageSrc={demand2}
           />
